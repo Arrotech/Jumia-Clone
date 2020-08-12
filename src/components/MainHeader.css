@@ -1,0 +1,33 @@
+* {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.mainHeader {
+    padding-left: 20px;
+    padding-bottom: 0 !important;
+    margin-left: 0 !important;
+    display: flex;
+}
+
+.mainHeader__left {
+    flex: 0.94;
+}
+
+img {
+    margin-left: 0;
+    margin-bottom: 0;
+    width: 95%;
+}
+
+.mainHeader__right {
+    flex: 0.06;
+    height: 58px;
+    background-color: orange;
+}
+
+@media(max-width: 990px) {
+    .mainHeader__right {
+        display: none;
+    }
+}
